@@ -68,3 +68,17 @@ button {
     min-height: 1.25rem;
     font-weight: 600;
 }
+
+.resolve-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.reopen-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

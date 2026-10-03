@@ -45,6 +45,8 @@ ${issue.status}`;
         button.type = 'button';
         button.textContent = issue.status === 'Open' ? 'Mark Resolved' :
             'Reopen';
+        button.className = issue.status === 'Open' ? 'resolve-button' :
+            'reopen-button';
         button.addEventListener('click', () => toggleIssueStatus(issue.id));
 
         card.append(heading, description, meta, button);
